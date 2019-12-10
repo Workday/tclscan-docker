@@ -1,6 +1,8 @@
 # tclscan-docker
 tclscan docker image
 
+`tclscan` is a tool that scans Tcl code for command injection flaws. For example, it can be used to assess vulnerabilities in F5 load balancer rules (implemented in Tcl). Building `tclscan` from source has proven somewhat challenging because of its dependencies (Tcl, Rust, LLVM), version mismatches, etc. `tclscan-docker` helps with that by providing a standard Dockerfile and Docker image
+
 See
 * https://github.com/kugg/tclscan
 * https://blog.f-secure.com/command-injection-in-f5-irules/
